@@ -4,14 +4,13 @@ Remember the old Abstraktor generators? Here's the best one pulled out into a si
 
 `docker build -t hexagram . `
 
+Add your source images to the folder.
+
 `docker run -it hexagram bash`
 
-Add your source images to the root folder.
-
-Inside the container run
+Inside the container run:
 
 ```
-cd /app
 ruby hexagram.rb -h #to see options
 ```
 
