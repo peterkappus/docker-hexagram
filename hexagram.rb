@@ -26,7 +26,7 @@ CROP_SQUARE = [true,true,false].sample #usually square :)
 
 OUT_DIR = "out"
 
-require 'RMagick'
+require 'rmagick'
 include Magick
 require 'trollop'
 
